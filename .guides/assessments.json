@@ -1604,7 +1604,7 @@
    "showName": false,
    "instructions": "## Reading Question\nAssume you have a string variable called `my_string`. Fill in the blanks below so that the program uses a while loop to iterate over `my_string` and print each character.",
    "text": "```python\nlength = len(<<<my_string>>>)\ni = 0\n\nwhile i < length:\n    print(<<<my_string[i]>>>)\n    i += 1\n```",
-   "guidance": "The first blank is `my_string`. When using a while loop, you need to know how long the string is. So `length` should be equal to the length of `my_string`. The second blank is `my_string[i]`. Referencing a character with a while loop means using the string name and an index. The variable `i` represents the index.\n\n```python\nlength = len(<<<my_string>>>)\ni = 0\n\nwhile i < length:\n    print(<<<my_string[i]>>>)\n    i += 1\n```",
+   "guidance": "The first blank is `my_string`. When using a while loop, you need to know how long the string is. So `length` should be equal to the length of `my_string`. The second blank is `my_string[i]`. Referencing a character with a while loop means using the string name and an index. The variable `i` represents the index.\n\n```python\nlength = len(my_string)\ni = 0\n\nwhile i < length:\n    print(my_string[i])\n    i += 1\n```",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
@@ -2493,7 +2493,7 @@
    "name": "reading question alphabetical order strings",
    "showName": false,
    "instructions": "## Reading Question\nAssume that you have two string variables `string1` and `string2`. Fill in the blanks below.",
-   "text": "Check to see if `string1` comes before `string2`:\n```python\nstring1 <<<<>>> string2\n```\n\nCheck to see if `string2` comes after `string1`:\n```python\nstring1 <<<>>>> string2\n```",
+   "text": "Check to see if `string1` comes before `string2`:\n```python\nstring1 <<<<>>> string2\n```\n\nCheck to see if `string2` comes after `string1`:\n```python\nstring2 <<<>>>> string1\n```",
    "guidance": "If `string1` comes before `string2`, then `string1` is **less than** `string2`. If `string2` comes after `string1`, then `string2` is **greater than** `string1`.",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
@@ -2539,9 +2539,9 @@
     "text": [
      "Check to see if `string1` comes before `string2`:\n```python\nstring1 ",
      0,
-     " string2\n```\n\nCheck to see if `string2` comes after `string1`:\n```python\nstring1 ",
+     " string2\n```\n\nCheck to see if `string2` comes after `string1`:\n```python\nstring2 ",
      0,
-     " string2\n```"
+     " string1\n```"
     ]
    }
   }
@@ -2648,8 +2648,8 @@
    "answers": [
     {
      "_id": "eb7ce17e-0d12-b948-f7ae-b843765444c6",
-     "correct": true,
-     "answer": "Both `is` and `==` can be used to check string equality."
+     "correct": false,
+     "answer": "Both `is` and `==` do the exact same thing."
     },
     {
      "_id": "a56ed4ba-d4d6-98ad-09c2-44ef353aaed2",
@@ -2663,11 +2663,11 @@
     },
     {
      "_id": "385844e8-f6d9-dd2a-4129-72e4b0d59b05",
-     "correct": true,
-     "answer": "`is` is the preferred way to compare strings and other objects."
+     "correct": false,
+     "answer": "`is` is the preferred way to check equality."
     }
    ],
-   "guidance": "All of the statements are true. Both operators can check string equality. `is` compares object IDs while `==` compares values. Finally, `is` is the preferred way to compare strings and other objects in Python.",
+   "guidance": "The middle two statements are true;`is` compares object IDs while `==` compares values. Because of this, `is` and `==` do not do the same thing. It is possible that two strings with identical values can be stored in the same memory location. In this case, the `is` operator would work. However, it is also possible that two strings with the same value can have different memory addresses. The `is` operator would not work in this example.",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
@@ -2694,13 +2694,7 @@
     "files": [
      "code/strings/alpha-order.py"
     ],
-    "opened": [
-     {
-      "type": "file",
-      "panelNumber": 0,
-      "content": "code/strings/alpha-order.py"
-     }
-    ]
+    "opened": []
    },
    "bloomsObjectiveLevel": "2",
    "learningObjectives": "SWBAT determine the characteristics of is and == when comparing strings"
