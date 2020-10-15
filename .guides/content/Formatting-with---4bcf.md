@@ -14,7 +14,10 @@ print("%s, up and %s" % (var1, var2))
 
 {try it}(python3 code/strings/old-string-interpolation.py 1)
 
-<details><summary>**What does the `s` in `%s` mean?**</summary>The `s` means that the variable that will go in this position will be a string. If `var1` is an integer, use `%i`. If it is a float, use `%f`.</details>
+<details>
+  <summary><strong>What does the <code>s</code> in <code>%s</code> mean?</strong></summary>
+  The <code>s</code> means that the variable that will go in this position will be a string. If <code>var1</code> is an integer, use <code>%i</code>. If it is a float, use <code>%f</code>.
+</details>
 
 |||challenge
 ## What happens if you:

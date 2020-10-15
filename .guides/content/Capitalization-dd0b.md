@@ -2,11 +2,14 @@
 
 ## User Input
 
-To humans, the words "dog" and "Dog" are the same. Python, however, is case sensitive. That means a difference in capitalization implies two different words. When dealing with user input, the rules of capitalization are often not followed. The `input` command instructs Python to pause the program until the user has typed something and pressed `Return`. **Important**, Python treats all user input as a string. If you want a number, use typcasting to convert it to the proper data type.
+To humans, the words "dog" and "Dog" are the same. Python, however, is case sensitive. That means a difference in capitalization implies two different words. When dealing with user input, the rules of capitalization are often not followed. The `input` command instructs Python to pause the program until the user has typed something and pressed `Return`. **Important**, Python treats all user input as a string. If you want a number, use typecasting to convert it to the proper data type.
 
 ![User Input](.guides/images/user-input.png)
 
-<details><summary>**The Terminal**</summary>Collecting user input requires the terminal (also called the command line), which has not been used up until now. When you run the program below, you will see a new tab appear with the message to the user. Enter some text and press return. Click the "TRY IT" button to run the program again. If you want to edit your program, you can click on the tab with your code. You can also close the terminal (running the program again will launch the terminal).</details>
+<details>
+  <summary><strong>The Terminal</strong></summary>
+  Collecting user input requires the terminal (also called the command line), which has not been used up until now. When you run the program below, you will see a new tab appear with the message to the user. Enter some text and press return. Click the "TRY IT" button to run the program again. If you want to edit your program, you can click on the tab with your code. You can also close the terminal (running the program again will launch the terminal).
+</details>
 
 ```python
 text = input("Type something and press 'Return': ")
@@ -24,7 +27,10 @@ print(text)
 
 {try it|terminal}(python3 code/strings/capitalization-comparison.py)
 
-<details><summary>**Ctrl + C**</summary>Pressing `Ctrl` and `C` on the keyboard will exit the program running in the terminal.</details>
+<details>
+  <summary><strong>Ctrl + C</strong></summary>
+  Pressing <code>Ctrl</code> and <code>C</code> on the keyboard will exit the program running in the terminal.
+</details>
 
 ## Comparing Text, Not Capitalization
 
@@ -52,7 +58,10 @@ else:
 
 {try it|terminal}(python3 code/strings/capitalization-comparison.py)
 
-<details><summary>**Running Python code manually**</summary>All the "TRY IT" button does is send a message to Codio to run your Python program. You can do the same from the terminal. The image below explains how to run your code manually. If you see the `$` in the terminal, that means Python has finished running, and the terminal is waiting for the next command.<img src=".guides/images/run-code-terminal.png" /></details>
+<details>
+  <summary><strong>Running Python code manually</strong></summary>
+  All the "TRY IT" button does is send a message to Codio to run your Python program. You can do the same from the terminal. The image below explains how to run your code manually. If you see the <code>$</code> in the terminal, that means Python has finished running, and the terminal is waiting for the next command.<img src=".guides/images/run-code-terminal.png" />
+</details>
 
 {Check It!|assessment}(multiple-choice-3617041259)
 

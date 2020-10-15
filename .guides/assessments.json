@@ -1213,7 +1213,7 @@
   "source": {
    "name": "formative assessment 1 string methods",
    "showName": false,
-   "instructions": "## String Methods\nLook at the before and after code samples below:\n* **Before:** `the brown dog jumps over the lazy fox`\n* **After:** `THE BROWN CAT JUMPS OVER THE LAZY FOX`\nWhat two string methods would you use to change the text?",
+   "instructions": "## String Methods\nLook at the before and after code samples below:\n* **Before:** `the brown dog jumps over the lazy fox`\n* **After:** `THE BROWN CAT JUMPS OVER THE LAZY FOX`\n\nWhat two string methods would you use to change the text?",
    "multipleResponse": false,
    "answers": [
     {
@@ -1264,13 +1264,7 @@
     "files": [
      "code/strings/string-in.py"
     ],
-    "opened": [
-     {
-      "type": "file",
-      "panelNumber": 0,
-      "content": "code/strings/string-in.py"
-     }
-    ]
+    "opened": []
    },
    "bloomsObjectiveLevel": "4",
    "learningObjectives": "SWBAT recognize which string methods are needed to produce a given output"

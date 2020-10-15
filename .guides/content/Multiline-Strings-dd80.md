@@ -34,12 +34,15 @@ print(long_string)
 
 {try it}(python3 code/strings/string-multiline.py 3)
 
-<details><summary>**Docstrings**</summary>The triple quote (`"""`) has a special purpose, documenting code. You will learn more about docstrings in the lessons on functions and classes.</details>
+<details>
+  <summary><strings>Docstrings</strings></summary>
+  The triple quote (<code>"""</code>) has a special purpose, documenting code. You will learn more about docstrings in the lessons on functions and classes.
+</details>
 
 |||challenge
 ## What happens if you:
-* Change the `"""` to `'''`?
-* Have `"""` to start the string and `'''` to end the string?
+* Change the `"""` (3 double quotes) to `'''` (3 single quotes)?
+* Have `"""` (3 double quotes) to start the string and `'''` (3 single quotes) to end the string?
 
 |||
 
