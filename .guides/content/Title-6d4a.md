@@ -21,6 +21,66 @@ print(my_string.title())
 
 {try it}(python3 code/strings/title-method.py 2)
 
-<details><summary>**Other String Methods**</summary>There are [many more](https://www.tutorialspoint.com/python/python_strings.htm) string methods. Here are a few examples:<table><tr><th>Method</th><th>Example</th><th>Description</th></tr><tr><td>[Center](https://www.tutorialspoint.com/python/string_center.htm)</td><td>`center(width, fill)`</td><td>Center a string in a given width, fill any whitespace with a given character</td></tr><tr><td>[Count](https://www.tutorialspoint.com/python/string_count.htm)</td><td>`count(str, start, end)`</td><td>Count how many times a string appears</td></tr><tr><td>[Ends With](https://www.tutorialspoint.com/python/string_endswith.htm)</td><td>`endswith(str, start, end)`</td><td>Return `True` if a string ends with a specific string</td></tr><tr><td>[Index](https://www.tutorialspoint.com/python/string_index.htm)</td><td>`index(str, start, end)`</td><td>Return index of `str` in a string, will raise an exception if not found</td></tr><tr><td>[Is Alphanumeric](https://www.tutorialspoint.com/python/string_isalnum.htm)</td><td>`isalnum()`</td><td>Returns `True` if string is alphanumeric</td></tr><tr><td>[Is Alphabetic](https://www.tutorialspoint.com/python/string_isalpha.htm)</td><td>`isalpha()`</td><td>Returns `True` if string is alphabetic</td></tr><tr><td>[Is Digit](https://www.tutorialspoint.com/python/string_isdigit.htm)</td><td>`isdigit()`</td><td>Returns `True` if string is just digits</td></tr><tr><td>[Is Lower](https://www.tutorialspoint.com/python/string_islower.htm)</td><td>`islower()`</td><td>Returns `True` if the string is lowercase</td></tr><tr><td>[Is Space](https://www.tutorialspoint.com/python/string_isspace.htm)</td><td>`isspace()`</td><td>Returns `True` if the strings is nothing but spaces</td></tr><tr><td>[Is Title](https://www.tutorialspoint.com/python/string_istitle.htm)</td><td>`istitle()`</td><td>Returns `True` if the string is title case</td></tr><tr><td>[Is Upper](https://www.tutorialspoint.com/python/string_isupper.htm)</td><td>`isupper()`</td><td>Returns `True` if string is all uppercase</td></tr></table>
+<details>
+  <summary><strong>Other String Methods</strong></summary>
+  There are <a href="https://www.tutorialspoint.com/python/python_strings.htm">many more</a> string methods. Here are a few examples:
+  <table>
+    <tr><th>Method</th><th>Example</th><th>Description</th></tr>
+    <tr>
+      <td><a href="https://www.tutorialspoint.com/python/string_center.htm">Center</a></td>
+      <td><code>center(width, fill)</code></td>
+      <td>Center a string in a given width, fill any whitespace with a given character</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.tutorialspoint.com/python/string_count.htm">Count</a></td>
+      <td><code>count(str, start, end)</code></td>
+      <td>Count how many times a string appears</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.tutorialspoint.com/python/string_endswith.htm">Ends With</a></td>
+      <td><code>endswith(str, start, end)</code></td>
+      <td>Return <code>True</code> if a string ends with a specific string</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.tutorialspoint.com/python/string_index.htm">Index</a></td>
+      <td><code>index(str, start, end)</code></td>
+      <td>Return index of <code>str</code> in a string, will raise an exception if not found</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.tutorialspoint.com/python/string_isalnum.htm">Is Alphanumeric</a></td>
+      <td><code>isalnum()</code></td>
+      <td>Returns <code>True</code> if string is alphanumeric</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.tutorialspoint.com/python/string_isalpha.htm">Is Alphabetic</a></td>
+      <td><code>isalpha()</code></td>
+      <td>Returns <code>True</code> if string is alphabetic</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.tutorialspoint.com/python/string_isdigit.htm">Is Digit</a></td>
+      <td><code>isdigit()</code></td>
+      <td>Returns <code>True</code> if string is just digits</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.tutorialspoint.com/python/string_islower.htm">Is Lower</a></td>
+      <td><code>islower()</code></td>
+      <td>Returns <code>True</code> if the string is lowercase</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.tutorialspoint.com/python/string_isspace.htm">Is Space</a></td>
+      <td><code>isspace()</code></td>
+      <td>Returns <code>True</code> if the strings is nothing but spaces</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.tutorialspoint.com/python/string_istitle.htm">Is Title</a></td>
+      <td><code>istitle()</code></td>
+      <td>Returns <code>True</code> if the string is title case</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.tutorialspoint.com/python/string_isupper.htm">Is Upper</a></td>
+      <td><code>isupper()</code></td>
+      <td>Returns <code>True</code> if string is all uppercase</td>
+    </tr>
+  </table>
 
 {Check It!|assessment}(multiple-choice-2695027968)

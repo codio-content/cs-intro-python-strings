@@ -24,6 +24,9 @@ print(my_slice)
 
 {try it}(python3 code/strings/string-slice.py 2)
 
-<details><summary>**Slice Defaults**</summary>If no number is used for the starting point in a slice `my_string[:2]`, Python will default to 0. If no number is used for the stopping point `my_string[2:]`, Python will default to the end of the string. Using no numbers on a slice `my_string[:]`, Python will default to 0 for the start and the end of the string as the stopping point. In short, Python will return the entire string.</details>
+<details>
+  <summary><strong>Slice Defaults</strong></summary>
+  If no number is used for the starting point in a slice <code>my_string[:2]</code>, Python will default to 0. If no number is used for the stopping point <code>my_string[2:]</code>, Python will default to the end of the string. Using no numbers on a slice <code>my_string[:]</code>, Python will default to 0 for the start and the end of the string as the stopping point. In short, Python will return the entire string.
+</details>
 
 {Check It!|assessment}(multiple-choice-2369717682)

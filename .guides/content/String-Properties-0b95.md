@@ -34,7 +34,10 @@ Each character in a string has a position. This is its index. Indexes always sta
 
 ![String Index](.guides/images/string-and-index.png)
 
-<details><summary>**Strings & Quotation Marks**</summary>Quotation marks are required to declare the value of a string. However, quotation marks are not a part of the string itself. That is why quotation marks are not counted with the `len` function and why they do not have an index.</details>
+<details>
+  <summary><strong>Strings & Quotation Marks</strong></summary>
+  Quotation marks are required to declare the value of a string. However, quotation marks are not a part of the string itself. That is why quotation marks are not counted with the <code>len</code> function and why they do not have an index.
+</details><br>
 
 To reference a character, use the string name, followed by square brackets (`[]`), and put the index between the square brackets.
 

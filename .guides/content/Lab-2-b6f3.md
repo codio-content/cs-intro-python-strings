@@ -46,6 +46,21 @@ You should see `xof yzal eht revo spmuj god nworb ehT`.
 
 {try it}(python3 code/strings/lab2.py)
 
-<details><summary>**Code**</summary><img src=".guides/images/reverse-string.png" /></details>
+<details>
+  <summary><strong>Code</strong></summary>
+  
+  ```python
+  my_string = "The brown dog jumps over the lazy fox"
+  reversed_string = ""
+  index = len(my_string) - 1
+  
+  while index >= 0:
+      reversed_string += my_string[index]
+      index -= 1
+  
+  print(reversed_string)
+  ```
+  
+</details>
 
 {Check It!|assessment}(multiple-choice-1456526025)

@@ -51,6 +51,24 @@ else:
 
 You should see that there are 9 vowels in the string.
 
-<details><summary>**Code**</summary><img src=".guides/images/count-vowels.png" /></details>
+<details>
+  <summary><strong>Code</strong></summary>
+  
+  ```python
+  my_string = "The Brown Dog Jumps Over The Lazy Fox"
+  vowels = "aeiou"
+  count = 0
+  
+  for char in my_string:
+      if char.lower() in vowels:
+          count += 1
+  
+  if count == 1:
+      print("There is 1 vowel in the string")
+  else:
+      print("There are {} vowels in the string".format(count))
+  ```
+  
+</details>
 
 {Check It!|assessment}(multiple-choice-887107274)

@@ -42,6 +42,9 @@ print(string1 is not string2)
 
 {try it}(python3 code/strings/is-comparison.py 4)
 
-<details><summary>**Why the EOF error?**</summary>The string `"\""` is actually a string that looks like this `"`. But if you put three double quotes in a row, that is starting a multiline string. Python expects another triple quote to end the multiline string. Python reached the end of the file (EOF) before finding the triple quote. That is why there is an error.</details>
+<details>
+  <summary><strong>Why the EOF error?</strong></summary>
+  The string <code>"\""</code> is actually a string that looks like this <code>"</code>. But if you put three double quotes in a row, that is starting a multi-line string. Python expects another triple quote to end the multi-line string. Python reached the end of the file (EOF) before finding the triple quote. That is why there is an error.
+</details>
 
 {Check It!|assessment}(fill-in-the-blanks-124411320)

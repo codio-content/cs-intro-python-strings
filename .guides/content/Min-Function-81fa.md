@@ -23,7 +23,12 @@ print(min(my_string))
 ## What happens if you:
 * Change `my_string` to `"AaBbCcDd"`?
 * Change `my_string` to `"The brown dog jumps over the lazy fox."`?
-<details><summary>**Note**</summary>The program does not have an error. You do not see anything because the "smallest" character is the " " between words. You cannot easily see a blank space on its own, which is why it seems like there is a problem with your code.</details>
+
+<details>
+  <summary><strong>Note</strong></summary>
+  The program does not have an error. You do not see anything because the "smallest" character is the " " between words. You cannot easily see a blank space on its own, which is why it seems like there is a problem with your code.
+</details><br>
+
 * Change `my_string` to `"@<#$%!^&*="`?
 
 |||
