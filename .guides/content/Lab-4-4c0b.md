@@ -1,3 +1,5 @@
+----------
+
 ## Count the Vowels
 You are going to write a program that counts the number of vowels that appear in a string. For the purpose of this exercise, vowels are `a, e, i, o, u`.
 

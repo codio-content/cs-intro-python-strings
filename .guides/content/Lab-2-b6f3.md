@@ -1,3 +1,5 @@
+----------
+
 ## Reverse a String
 
 You are going to write a program that takes a string and prints it in reverse order.
