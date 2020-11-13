@@ -1038,7 +1038,7 @@
   },
   {
    "id": "8c54c6fd-9960-526e-4e7c-67f684f21c1f",
-   "title": "Lab 5",
+   "title": "Lab Challenge",
    "files": [
     {
      "path": "#tabs",
@@ -1053,7 +1053,7 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Lab-5-8c54.md",
+   "content-file": ".guides/content/Lab-Challenge-8c54.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
