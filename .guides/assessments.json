@@ -261,12 +261,13 @@
    "name": "reading question string basics",
    "showName": false,
    "instructions": "## Reading Question\nAnswer the following questions about strings by filling in the blanks.",
+   "showValues": true,
    "text": "Strings are composed of a sequence of <<<characters>>>.\nAll strings have a <<<length>>>.\nIndividual characters are referenced with an <<<index>>>.",
+   "distractors": "",
    "guidance": "Here are the three properties of strings:\n1) All strings are a sequence of characters\n2) All strings have a length (the total number of characters).\n3) Characters in a string are referenced with an index.",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
-   "showValues": true,
    "metadata": {
     "tags": [
      {
@@ -275,7 +276,7 @@
      },
      {
       "name": "Content",
-      "value": "Strings"
+      "value": "String properties"
      },
      {
       "name": "Programming Language",
@@ -283,7 +284,7 @@
      },
      {
       "name": "Category",
-      "value": "String properties"
+      "value": "Strings"
      }
     ],
     "files": [
@@ -313,7 +314,8 @@
      ".\nIndividual characters are referenced with an ",
      0,
      "."
-    ]
+    ],
+    "regexPositions": []
    }
   }
  },
@@ -325,6 +327,7 @@
    "showName": false,
    "instructions": "## Reading Question\nWhat is the difference between using `\\` and `\"\"\"` when making multiline strings?",
    "multipleResponse": false,
+   "isRandomized": false,
    "answers": [
     {
      "_id": "acdd2ade-a3b5-674f-c1fe-3e0ee400cc2f",
@@ -360,11 +363,15 @@
      },
      {
       "name": "Content",
-      "value": "Strings"
+      "value": "Multiline Strings"
      },
      {
       "name": "Programming Language",
       "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Strings"
      }
     ],
     "files": [
@@ -390,6 +397,7 @@
    "showName": false,
    "instructions": "## Reading Question\nWhat does it mean that a string is immutable?",
    "multipleResponse": false,
+   "isRandomized": false,
    "answers": [
     {
      "_id": "6ca2cb22-2d0a-16bb-40a0-04da97dc82eb",
@@ -425,7 +433,7 @@
      },
      {
       "name": "Content",
-      "value": "Strings"
+      "value": "String Immutability"
      },
      {
       "name": "Programming Language",
@@ -433,7 +441,7 @@
      },
      {
       "name": "Category",
-      "value": "Immutability"
+      "value": "Strings"
      }
     ],
     "files": [
@@ -459,6 +467,7 @@
    "showName": false,
    "instructions": "## Reading Question\nSelect all of the ways to make a contraction (`It's`) inside a string declaration. **Hint**, there are more than one correct response.",
    "multipleResponse": true,
+   "isRandomized": false,
    "answers": [
     {
      "_id": "59ece00c-b9e7-c44c-cabc-6ffd4c853435",
@@ -494,7 +503,7 @@
      },
      {
       "name": "Content",
-      "value": "Strings"
+      "value": "Escape characters"
      },
      {
       "name": "Programming Language",
@@ -502,7 +511,7 @@
      },
      {
       "name": "Category",
-      "value": "Escape characters"
+      "value": "Strings"
      }
     ],
     "files": [
@@ -528,6 +537,7 @@
    "showName": false,
    "instructions": "## Reading Question\nAssume you have the string `my_string = \"The cat in the hat\"`. Which of the strip methods below **would not** modify `my_string`?",
    "multipleResponse": false,
+   "isRandomized": false,
    "answers": [
     {
      "_id": "9dcda578-dc17-b6e1-e1df-3fecf688d1e1",
@@ -563,7 +573,7 @@
      },
      {
       "name": "Content",
-      "value": "Strings"
+      "value": "strip method, string methods"
      },
      {
       "name": "Programming Language",
@@ -571,17 +581,18 @@
      },
      {
       "name": "Category",
-      "value": "strip method, string methods"
+      "value": "Strings"
      }
     ],
     "files": [
+     "code/strings/strip-method.py",
      "code/strings/join-method.py"
     ],
     "opened": [
      {
       "type": "file",
       "panelNumber": 0,
-      "content": "code/strings/join-method.py"
+      "content": "code/strings/strip-method.py"
      }
     ]
    },
@@ -597,6 +608,7 @@
    "showName": false,
    "instructions": "## Reading Question\nHow does the `upper` method work if strings are immutable?",
    "multipleResponse": false,
+   "isRandomized": false,
    "answers": [
     {
      "_id": "0cf35663-7870-a8a7-957a-310fc8582d66",
@@ -632,7 +644,7 @@
      },
      {
       "name": "Content",
-      "value": "Strings"
+      "value": "String Immutability"
      },
      {
       "name": "Programming Language",
@@ -640,7 +652,7 @@
      },
      {
       "name": "Category",
-      "value": "String immutability"
+      "value": "Strings"
      }
     ],
     "files": [
@@ -666,6 +678,7 @@
    "showName": false,
    "instructions": "## Reading Question\nHow many parameters does the `lower` method have?",
    "multipleResponse": false,
+   "isRandomized": false,
    "answers": [
     {
      "_id": "7b3832a2-b813-4db8-5d14-8e65a90d9384",
@@ -701,7 +714,7 @@
      },
      {
       "name": "Content",
-      "value": "Strings"
+      "value": "Parameters, methods"
      },
      {
       "name": "Programming Language",
@@ -709,7 +722,7 @@
      },
      {
       "name": "Category",
-      "value": "Parameters, methods"
+      "value": "Strings"
      }
     ],
     "files": [
@@ -734,12 +747,13 @@
    "name": "reading question capitalize",
    "showName": false,
    "instructions": "## Reading Question\nFill in the blank below so that the first letter of the string variable `my_string` is uppercase.",
+   "showValues": false,
    "text": "```python\nmy_string = \"governments of the Industrial World, you weary giants of flesh and steel, I \\\ncome from Cyberspace, the new home of Mind.\"\nprint(my_string<<<.capitalize()>>>)\n```",
+   "distractors": "",
    "guidance": "Since you only want to make the first character uppercase, use the `capitalize` method. Do not forget to put a `.` after the string name and before the method name. Methods also require parentheses with any parameters. `capitalize` does not have any paramenters.\n\n```python\nprint(my_string.capitalize())\n```",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
-   "showValues": false,
    "metadata": {
     "tags": [
      {
@@ -748,7 +762,7 @@
      },
      {
       "name": "Content",
-      "value": "Strings"
+      "value": "Methods, capitalize method"
      },
      {
       "name": "Programming Language",
@@ -756,7 +770,7 @@
      },
      {
       "name": "Category",
-      "value": "Methods, capitalize method"
+      "value": "Strings"
      }
     ],
     "files": [
@@ -780,7 +794,8 @@
      "```python\nmy_string = \"governments of the Industrial World, you weary giants of flesh and steel, I \\\ncome from Cyberspace, the new home of Mind.\"\nprint(my_string",
      0,
      ")\n```"
-    ]
+    ],
+    "regexPositions": []
    }
   }
  },
@@ -792,6 +807,7 @@
    "showName": false,
    "instructions": "## Reading Question\nSelect all of the following that are true about the `title` method. **Hint** there is more than one correct answer.",
    "multipleResponse": true,
+   "isRandomized": false,
    "answers": [
     {
      "_id": "c5301b59-6bab-27ec-0afa-a193ec3ee95b",
@@ -827,7 +843,7 @@
      },
      {
       "name": "Content",
-      "value": "Strings"
+      "value": "Title method, string methods"
      },
      {
       "name": "Programming Language",
@@ -835,7 +851,7 @@
      },
      {
       "name": "Category",
-      "value": "Title method, string methods"
+      "value": "Strings"
      }
     ],
     "files": [
@@ -860,12 +876,13 @@
    "name": "reading question starts with method",
    "showName": false,
    "instructions": "## Reading Question\nFill in the blanks below.",
+   "showValues": true,
    "text": "The `startswith` method has up to <<<3>>> parameters.\nThe first parameter is <<<required>>>.\nThe other two parameters are <<<optional>>>.\n\n ",
+   "distractors": "",
    "guidance": "The `startswith` method has up to 3 parameters.\nThe first parameter is required.\nThe other two parameters are optional.",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
-   "showValues": true,
    "metadata": {
     "tags": [
      {
@@ -874,7 +891,7 @@
      },
      {
       "name": "Content",
-      "value": "Strings"
+      "value": "startswith method, parameters"
      },
      {
       "name": "Programming Language",
@@ -882,7 +899,7 @@
      },
      {
       "name": "Category",
-      "value": "startswith method, parameters"
+      "value": "Strings"
      }
     ],
     "files": [
@@ -912,7 +929,8 @@
      ".\nThe other two parameters are ",
      0,
      ".\n\n "
-    ]
+    ],
+    "regexPositions": []
    }
   }
  },
@@ -923,12 +941,13 @@
    "name": "reading question replace method",
    "showName": false,
    "instructions": "## Reading Question\nComplete the code below so that all instances of `\"house\"` in the string `my_string` are replaced with `\"mouse\"`.",
+   "showValues": false,
    "text": "my_string<<<.replace>>>(<<<\"house\">>>, <<<\"mouse\">>>) ",
+   "distractors": "",
    "guidance": "Use the `replace` method. The first parameter is the substring to search for, and the second parameter is what will be used in its place.\n\n```python\nmy_string.replace(\"house\", \"mouse\")\n```",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
-   "showValues": false,
    "metadata": {
     "tags": [
      {
@@ -937,7 +956,7 @@
      },
      {
       "name": "Content",
-      "value": "Strings"
+      "value": "Replace method"
      },
      {
       "name": "Programming Language",
@@ -945,7 +964,7 @@
      },
      {
       "name": "Category",
-      "value": "Replace method"
+      "value": "Strings"
      }
     ],
     "files": [
@@ -975,7 +994,8 @@
      ", ",
      0,
      ") "
-    ]
+    ],
+    "regexPositions": []
    }
   }
  },
@@ -987,8 +1007,7 @@
    "showName": false,
    "instructions": "## Reading Question\nAssume that you have two strings, `original_string` and `search_term`. Rearrange the code blocks below to test if `search_term` is found in `original_string`. If true, print the message `\"I found it!\"`. **Hint**, not all of the code blocks will be used.",
    "initial": "if original_string.find(search_term) != -1:\n    print(\"I found it!\")\nif search_term.find(original_string) != -1: #distractor\nif original_string.find(search_term) == -1: #distractor",
-   "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}",
-   "grader": "",
+   "options": "{\"sortableId\":\"sortable\",\"trashId\":\"sortableTrash\"}",
    "guidance": "Here are the steps to constructing the correct conditional statement:\n1) Start with a conditional\n```python\nif\n```\n2) Add the string that is being searched\n```python\nif original_string\n```\n3) Attach the `find` method\n```python\nif original_string.find()\n```\n4) Use `search_term` as the parameter for `find`\n```python\nif original_string.find(search_term)\n```\n5) If `search_term` is not found, it will return `-1`. So any number that is not `-1` means that `search_term` has been found\n```python\nif original_string.find(search_term) != -1:\n```\n6) Finally, add the `print` statement\n```python\nif original_string.find(search_term) != -1:\n    print(\"I found it!\")\n```",
    "showGuidanceAfterResponse": true,
    "points": 1,
@@ -1001,7 +1020,7 @@
      },
      {
       "name": "Content",
-      "value": "Strings"
+      "value": "Find method, conditional"
      },
      {
       "name": "Programming Language",
@@ -1009,7 +1028,7 @@
      },
      {
       "name": "Category",
-      "value": "Find method, conditional"
+      "value": "Strings"
      }
     ],
     "files": [
@@ -1035,6 +1054,7 @@
    "showName": false,
    "instructions": "## Reading Question\nSelect all of the statements that are true about the `in` operator and strings. **Hint**, there are more than one correct answer.",
    "multipleResponse": true,
+   "isRandomized": false,
    "answers": [
     {
      "_id": "54b3d31e-22c9-548c-4a33-2ee4948b11eb",
@@ -1070,7 +1090,7 @@
      },
      {
       "name": "Content",
-      "value": "String"
+      "value": "In Operator"
      },
      {
       "name": "Programming Language",
@@ -1078,7 +1098,7 @@
      },
      {
       "name": "Category",
-      "value": "In operator"
+      "value": "Strings"
      }
     ],
     "files": [
@@ -1104,8 +1124,7 @@
    "showName": false,
    "instructions": "## String Basics\nRearrange the code blocks below to create a program that checks if `string1` is longer than `string2`. Then print the message `String1 is longer` if true. **Hint**, not all of the code blocks will be used.",
    "initial": "if len(string1) > len(string2):\n    print(\"String1 is longer\")\nif string1.len() > string2.len(): #distractor\nif length(string1) > length(string2): #distractor\n",
-   "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}",
-   "grader": "",
+   "options": "{\"sortableId\":\"sortable\",\"trashId\":\"sortableTrash\"}",
    "guidance": "The Python command for the length of a string is `len()`. So the correct answer would be:\n\n```python\nif len(string1) > len(string2):\n    print(\"String1 is longer\")\n```",
    "showGuidanceAfterResponse": true,
    "points": 1,
@@ -1118,7 +1137,7 @@
      },
      {
       "name": "Content",
-      "value": "Strings"
+      "value": "Length Function"
      },
      {
       "name": "Programming Language",
@@ -1126,19 +1145,13 @@
      },
      {
       "name": "Category",
-      "value": "len function"
+      "value": "Strings"
      }
     ],
     "files": [
      "code/strings/string-in.py"
     ],
-    "opened": [
-     {
-      "type": "file",
-      "panelNumber": 0,
-      "content": "code/strings/string-in.py"
-     }
-    ]
+    "opened": []
    },
    "bloomsObjectiveLevel": "3",
    "learningObjectives": "SWBAT implement the len function"
@@ -1152,6 +1165,7 @@
    "showName": false,
    "instructions": "## String Basics\nSelect all of the print statements below that will produce the following output:\n\n```python\nI am the first line,\nI am the second,\nand I am the third line!\n```\n\n**Hint**, there are more than one correct answer.",
    "multipleResponse": true,
+   "isRandomized": false,
    "answers": [
     {
      "_id": "16ac568a-48c5-9688-2a12-bac07e86da2c",
@@ -1187,7 +1201,7 @@
      },
      {
       "name": "Content",
-      "value": "Strings"
+      "value": "Newline character, multiline strings"
      },
      {
       "name": "Programming Language",
@@ -1195,7 +1209,7 @@
      },
      {
       "name": "Category",
-      "value": "Newline character, multiline strings"
+      "value": "Strings"
      }
     ],
     "files": [
@@ -1215,6 +1229,7 @@
    "showName": false,
    "instructions": "## String Methods\nLook at the before and after code samples below:\n* **Before:** `the brown dog jumps over the lazy fox`\n* **After:** `THE BROWN CAT JUMPS OVER THE LAZY FOX`\n\nWhat two string methods would you use to change the text?",
    "multipleResponse": false,
+   "isRandomized": false,
    "answers": [
     {
      "_id": "c818582d-acc2-f323-4ade-195b6f30318e",
@@ -1250,7 +1265,7 @@
      },
      {
       "name": "Content",
-      "value": "Strings"
+      "value": "String methods"
      },
      {
       "name": "Programming Language",
@@ -1258,7 +1273,7 @@
      },
      {
       "name": "Category",
-      "value": "String methods"
+      "value": "Strings"
      }
     ],
     "files": [
@@ -1278,8 +1293,7 @@
    "showName": false,
    "instructions": "## String Methods\nImagine you have a string variable `sentence`. Rearrange the code blocks below to create a program that checks if `sentence` starts with blank spaces. If yes, print `sentence` without the blank spaces.",
    "initial": "if sentence.startswith(\" \"):\n    print(sentence.strip(\" \"))\nif sentence.beginswith(\" \"): #distractor\nif sentence.startswith(): #distractor\nprint(sentence.strip()) #distractor",
-   "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}",
-   "grader": "",
+   "options": "{\"sortableId\":\"sortable\",\"trashId\":\"sortableTrash\"}",
    "guidance": "For the if statement, the method that checks the beginning of a string is `startswith`. The parameter for the method is `\" \"`. For the `print` statement, the method to use is `strip`, and it takes `\" \"` as a parameter. The final answer is:\n\n```python\nif sentence.startswith(\" \"):\n    print(sentence.strip(\" \"))\n```",
    "showGuidanceAfterResponse": true,
    "points": 1,
@@ -1292,7 +1306,7 @@
      },
      {
       "name": "Content",
-      "value": "Strings"
+      "value": "String methods"
      },
      {
       "name": "Programming Language",
@@ -1300,7 +1314,7 @@
      },
      {
       "name": "Category",
-      "value": "String methods"
+      "value": "Strings"
      }
     ],
     "files": [
@@ -1320,6 +1334,7 @@
    "showName": false,
    "instructions": "## Reading Question\nSelect all of the components that make up the syntax of a string function. **Hint**, there are more than one correct answer.",
    "multipleResponse": true,
+   "isRandomized": false,
    "answers": [
     {
      "_id": "18b5c68c-edcb-79f3-e1b0-d796c8dfb73d",
@@ -1355,7 +1370,7 @@
      },
      {
       "name": "Content",
-      "value": "Strings"
+      "value": "String functions"
      },
      {
       "name": "Programming Language",
@@ -1363,7 +1378,7 @@
      },
      {
       "name": "Category",
-      "value": "String functions"
+      "value": "Strings"
      }
     ],
     "files": [
@@ -1388,12 +1403,13 @@
    "name": "reading question max string function",
    "showName": false,
    "instructions": "## Reading Question\nFill in the blanks below to find the \"largest\" value in the string `my_string`.",
+   "showValues": false,
    "text": "<<<max>>>(<<<my_string>>>)",
+   "distractors": "",
    "guidance": "The function name comes first, followed by parentheses, and the string parameter between the parentheses.\n\n```python\nmax(my_string)\n```",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
-   "showValues": false,
    "metadata": {
     "tags": [
      {
@@ -1402,7 +1418,7 @@
      },
      {
       "name": "Content",
-      "value": "Strings"
+      "value": "String functions"
      },
      {
       "name": "Programming Language",
@@ -1410,7 +1426,7 @@
      },
      {
       "name": "Category",
-      "value": "String functions"
+      "value": "Strings"
      }
     ],
     "files": [
@@ -1436,7 +1452,8 @@
      "(",
      0,
      ")"
-    ]
+    ],
+    "regexPositions": []
    }
   }
  },
@@ -1448,8 +1465,7 @@
    "showName": false,
    "instructions": "## String Functions\nRearrange the code blocks below so that your program prints the smallest value from the string `my_string`. **Hint**, you will not use all of the code blocks.",
    "initial": "my_string = \"av67!#\"\nsmallest = min(my_string)\nprint(smallest)\nprint(min) #distractor\nsmallest = my_string.min() #distractor\nsmallest = minimum(my_string) #distractor",
-   "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}",
-   "grader": "",
+   "options": "{\"sortableId\":\"sortable\",\"trashId\":\"sortableTrash\"}",
    "guidance": "Here are the steps to solving this problem:\n1) Declare the variable `my_string`\n2) Declare the variable `smallest` and set its value to `min(my_string)`. The function `minimum` does not exist, and `min.my_string()` is not the proper syntax for a string function.\n3) Print `smallest`",
    "showGuidanceAfterResponse": true,
    "points": 1,
@@ -1462,7 +1478,7 @@
      },
      {
       "name": "Content",
-      "value": "Strings"
+      "value": "String functions"
      },
      {
       "name": "Programming Language",
@@ -1470,7 +1486,7 @@
      },
      {
       "name": "Category",
-      "value": "String functions"
+      "value": "Strings"
      }
     ],
     "files": [
@@ -1490,8 +1506,7 @@
    "showName": false,
    "instructions": "## String Functions\nAssume you have two strings, `string1` and `string2`. Rearrange the blocks below so that your program compares the \"biggest\" characters from each string and print either `string1 has the biggest character` or `string2 has the biggest character`. **Hint**, you will not use all of the code blocks.",
    "initial": "if max(string1) > max(string2):\n    print(\"string1 has the biggest character\")\nelse:\n    print(\"string2 has the biggest character\")\nif max.string1 > max.string2: #distractor\nif max(string1) > min(string2): #distractor\nif min(string1) > max(string2): #distractor",
-   "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}",
-   "grader": "",
+   "options": "{\"sortableId\":\"sortable\",\"trashId\":\"sortableTrash\"}",
    "guidance": "The correct conditional is the one that compares the maximum values for `string1` and `string2`. The code blocks that use `min` can be ignored. The proper syntax for a string function is the name of the function, parentheses, and a string parameter between the parentheses. So `max.string1` can be ignored. The correct answer is:\n\n```python\nif max(string1) > max(string2):\n    print(\"string1 has the biggest character\")\nelse:\n    print(\"string2 has the biggest character\")\n```",
    "showGuidanceAfterResponse": true,
    "points": 1,
@@ -1504,7 +1519,7 @@
      },
      {
       "name": "Content",
-      "value": "Strings"
+      "value": "String functions"
      },
      {
       "name": "Programming Language",
@@ -1512,19 +1527,13 @@
      },
      {
       "name": "Category",
-      "value": "String functions"
+      "value": "Strings"
      }
     ],
     "files": [
      "code/strings/max-function.py"
     ],
-    "opened": [
-     {
-      "type": "file",
-      "panelNumber": 0,
-      "content": "code/strings/max-function.py"
-     }
-    ]
+    "opened": []
    },
    "bloomsObjectiveLevel": "3",
    "learningObjectives": "SWBAT demonstrate ability to find maximum value of a string"
@@ -1537,12 +1546,13 @@
    "name": "reading question string iteration for loops",
    "showName": false,
    "instructions": "## Reading Question\nAssume you have a string variable called `my_string`. Fill in the blanks below so that the program prints each character of `my_string`.",
+   "showValues": false,
    "text": "```python\nfor <<<char>>> in <<<my_string>>>:\n    print(char)\n```",
+   "distractors": "",
    "guidance": "The first blank is the variable `char`. We know this because `char` appears in the `print` statement. The second blank is the string variable, which was given as `my_string`.\n\n```python\nfor char in my_string:\n    print(char)\n```",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
-   "showValues": false,
    "metadata": {
     "tags": [
      {
@@ -1551,7 +1561,7 @@
      },
      {
       "name": "Content",
-      "value": "Strings"
+      "value": "String iteration"
      },
      {
       "name": "Programming Language",
@@ -1559,7 +1569,7 @@
      },
      {
       "name": "Category",
-      "value": "String iteration"
+      "value": "Strings"
      }
     ],
     "files": [
@@ -1586,7 +1596,8 @@
      " in ",
      0,
      ":\n    print(char)\n```"
-    ]
+    ],
+    "regexPositions": []
    }
   }
  },
@@ -1597,12 +1608,13 @@
    "name": "reading question while loop string iteration",
    "showName": false,
    "instructions": "## Reading Question\nAssume you have a string variable called `my_string`. Fill in the blanks below so that the program uses a while loop to iterate over `my_string` and print each character.",
+   "showValues": false,
    "text": "```python\nlength = len(<<<my_string>>>)\ni = 0\n\nwhile i < length:\n    print(<<<my_string[i]>>>)\n    i += 1\n```",
+   "distractors": "",
    "guidance": "The first blank is `my_string`. When using a while loop, you need to know how long the string is. So `length` should be equal to the length of `my_string`. The second blank is `my_string[i]`. Referencing a character with a while loop means using the string name and an index. The variable `i` represents the index.\n\n```python\nlength = len(my_string)\ni = 0\n\nwhile i < length:\n    print(my_string[i])\n    i += 1\n```",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
-   "showValues": false,
    "metadata": {
     "tags": [
      {
@@ -1611,7 +1623,7 @@
      },
      {
       "name": "Content",
-      "value": "Strings"
+      "value": "String iteration"
      },
      {
       "name": "Programming Language",
@@ -1619,7 +1631,7 @@
      },
      {
       "name": "Category",
-      "value": "String iteration"
+      "value": "Strings"
      }
     ],
     "files": [
@@ -1646,7 +1658,8 @@
      ")\ni = 0\n\nwhile i < length:\n    print(",
      0,
      ")\n    i += 1\n```"
-    ]
+    ],
+    "regexPositions": []
    }
   }
  },
@@ -1658,6 +1671,7 @@
    "showName": false,
    "instructions": "## String Iteration\nSelect all of the variables do you need to declare to iterate over a string with a while loop. **Hint**, there is more than one correct answer.",
    "multipleResponse": true,
+   "isRandomized": false,
    "answers": [
     {
      "_id": "e2e2febc-d03d-7672-b117-683505f51e62",
@@ -1693,7 +1707,7 @@
      },
      {
       "name": "Content",
-      "value": "Strings"
+      "value": "String iteration"
      },
      {
       "name": "Programming Language",
@@ -1701,7 +1715,7 @@
      },
      {
       "name": "Category",
-      "value": "String iteration"
+      "value": "Strings"
      }
     ],
     "files": [],
@@ -1719,6 +1733,7 @@
    "showName": false,
    "instructions": "## String Iteration\nUse the code below to help you answer the following question:\n\n```python\nmy_string = \"Hello world\"\nfor char in my_string:\n    print(char)\n```\n\nWhat does the variable `char` represent?",
    "multipleResponse": false,
+   "isRandomized": false,
    "answers": [
     {
      "_id": "a0858321-e490-a995-14de-67b83e49e37b",
@@ -1754,7 +1769,7 @@
      },
      {
       "name": "Content",
-      "value": "Strings"
+      "value": "String iteration"
      },
      {
       "name": "Programming Language",
@@ -1762,7 +1777,7 @@
      },
      {
       "name": "Category",
-      "value": "String iteration"
+      "value": "Strings"
      }
     ],
     "files": [],
@@ -1780,6 +1795,7 @@
    "showName": false,
    "instructions": "## Reading Question\nUse the code below to help you answer the following question:\n\n```python\nmy_string = \"Calvin and Hobbes\"\nmy_slice = my_string[3:8]\n```\n\nWhat is the value of `my_slice`?",
    "multipleResponse": false,
+   "isRandomized": false,
    "answers": [
     {
      "_id": "2df3f580-5283-ea71-3d93-bad686d08968",
@@ -1815,7 +1831,7 @@
      },
      {
       "name": "Content",
-      "value": "Strings"
+      "value": "Slice Operator"
      },
      {
       "name": "Programming Language",
@@ -1823,7 +1839,7 @@
      },
      {
       "name": "Category",
-      "value": "String slice"
+      "value": "Strings"
      }
     ],
     "files": [
@@ -1849,6 +1865,7 @@
    "showName": false,
    "instructions": "## Reading Question\nWhat does the term string interpolation mean?",
    "multipleResponse": false,
+   "isRandomized": false,
    "answers": [
     {
      "_id": "dab51c84-7842-ea4f-84b3-e803a59afd74",
@@ -1884,7 +1901,7 @@
      },
      {
       "name": "Content",
-      "value": "Strings"
+      "value": "String interpolation"
      },
      {
       "name": "Programming Language",
@@ -1892,7 +1909,7 @@
      },
      {
       "name": "Category",
-      "value": "String interpolation"
+      "value": "Strings"
      }
     ],
     "files": [
@@ -1917,12 +1934,13 @@
    "name": "reading question string interpolation format",
    "showName": false,
    "instructions": "## Reading Question\nFill in the blanks below to incorporate the variables `var1` and `var2` into the string `my_string` so that it reads \"The cat in the hat.\"",
+   "showValues": false,
    "text": "var1 = 'hat'\nvar2 = 'cat'\nmy_string = \"The {} in the {}.\".format(<<<var2>>>, <<<var1>>>)",
+   "distractors": "",
    "guidance": "Since there are no indexes in the `{}`, the order of the variables is important. The final string should have \"cat\" before \"hat\", so `var2` needs to come before `var1`.\n\n```python\nvar1 = 'hat'\nvar2 = 'cat'\nmy_string = \"The {} in the {}.\".format(var2, var1)\n```",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
-   "showValues": false,
    "metadata": {
     "tags": [
      {
@@ -1931,7 +1949,7 @@
      },
      {
       "name": "Content",
-      "value": "Strings"
+      "value": "String interpolation"
      },
      {
       "name": "Programming Language",
@@ -1939,7 +1957,7 @@
      },
      {
       "name": "Category",
-      "value": "String interpolation"
+      "value": "Strings"
      }
     ],
     "files": [
@@ -1966,7 +1984,8 @@
      ", ",
      0,
      ")"
-    ]
+    ],
+    "regexPositions": []
    }
   }
  },
@@ -1977,12 +1996,13 @@
    "name": "reading question f-strings",
    "showName": false,
    "instructions": "## Reading Question\nFill in the blanks below to create a program that prints, `Calvin and Hobbes`.",
+   "showValues": false,
    "text": "var1 = \"Hobbes\"\nvar2 = \"Calvin\"\nphrase = <<<f>>>\"<<<{var2}>>> and <<<{var1}>>>\"\nprint(phrase)",
+   "distractors": "",
    "guidance": "The first blank should be an `f` since you want to create an f-string. Since `Calvin` comes before `Hobbes`, use `{var2}` and then `{var1}`.\n\n```python\nvar1 = \"Hobbes\"\nvar2 = \"Calvin\"\nphrase = f\"{var2} and {var1}\"\nprint(phrase)\n```",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
-   "showValues": false,
    "metadata": {
     "tags": [
      {
@@ -1991,7 +2011,7 @@
      },
      {
       "name": "Content",
-      "value": "Strings"
+      "value": "String interpolation, f-strings"
      },
      {
       "name": "Programming Language",
@@ -1999,7 +2019,7 @@
      },
      {
       "name": "Category",
-      "value": "String interpolation, f-strings"
+      "value": "Strings"
      }
     ],
     "files": [
@@ -2029,7 +2049,8 @@
      " and ",
      0,
      "\"\nprint(phrase)"
-    ]
+    ],
+    "regexPositions": []
    }
   }
  },
@@ -2040,12 +2061,13 @@
    "name": "reading question string interpolation %",
    "showName": false,
    "instructions": "## Reading Question\nFill in the blanks below so that the code will print, `Roses are red, violets are blue.`",
+   "showValues": false,
    "text": "var1 = \"blue\"\nvar2 = \"Roses\"\nvar3 = \"red\"\nphrase = \"<<<%s>>> are <<<%s>>>, violets are <<<%s>>>.\" % (<<<var2>>>, <<<var3>>>, <<<var1>>>)\nprint(phrase)",
+   "distractors": "",
    "guidance": "The first three blanks are all `%s` because all of the variables are strings. Since \"Roses\" comes first, the first variable is `var2`. The next word should be \"red\", so variable `var3` is next. `var1` is the final variable.\n\n```python\nvar1 = \"blue\"\nvar2 = \"Roses\"\nvar3 = \"red\"\nphrase = \"%s are %s, violets are %s.\" % (var2, var3, var1)\nprint(phrase)\n```",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
-   "showValues": false,
    "metadata": {
     "tags": [
      {
@@ -2054,7 +2076,7 @@
      },
      {
       "name": "Content",
-      "value": "Strings"
+      "value": "String interpolation, %"
      },
      {
       "name": "Programming Language",
@@ -2062,7 +2084,7 @@
      },
      {
       "name": "Category",
-      "value": "String interpolation, %"
+      "value": "Strings"
      }
     ],
     "files": [
@@ -2101,7 +2123,8 @@
      ", ",
      0,
      ")\nprint(phrase)"
-    ]
+    ],
+    "regexPositions": []
    }
   }
  },
@@ -2113,6 +2136,7 @@
    "showName": false,
    "instructions": "## String Interpolation\nUse the code below to help you answer the following question. The program should print the phrase:\n\n**May it be more humane and fair than the world your governments have made before.**\n\n```python\nvar1 = \"governments\"\nvar2 = \"fair\"\nvar3 = \"humane\"\n```",
    "multipleResponse": false,
+   "isRandomized": false,
    "answers": [
     {
      "_id": "9ec77a74-f9d5-bfb9-8522-6355b35c5992",
@@ -2148,7 +2172,7 @@
      },
      {
       "name": "Content",
-      "value": "Strings"
+      "value": "String interpolation"
      },
      {
       "name": "Programming Language",
@@ -2156,7 +2180,7 @@
      },
      {
       "name": "Category",
-      "value": "String interpolation"
+      "value": "Strings"
      }
     ],
     "files": [
@@ -2176,6 +2200,7 @@
    "showName": false,
    "instructions": "## String Interpolation\nWhich of the following are recommended ways you should perform string interpolation in **Python 3**? **Hint**, there is more than one correct answer.",
    "multipleResponse": true,
+   "isRandomized": false,
    "answers": [
     {
      "_id": "144fe549-943e-9fb4-b4de-902f25270a1f",
@@ -2211,15 +2236,15 @@
      },
      {
       "name": "Content",
-      "value": "String"
+      "value": "String interpolation"
      },
      {
       "name": "Programming Language",
-      "value": "Pyt"
+      "value": "Python"
      },
      {
       "name": "Category",
-      "value": "String interpolation"
+      "value": "Strings"
      }
     ],
     "files": [],
@@ -2236,12 +2261,13 @@
    "name": "reading question string comparison == and !=",
    "showName": false,
    "instructions": "## Reading Question\nFill in the blank below so that the program will print `True`.",
+   "showValues": false,
    "text": "string1 = \"I love Python\"\nstring2 = \"I love Pyth0n\"\nprint(string1 <<<!=>>> string2)",
+   "distractors": "",
    "guidance": "The two strings are not equal; `string2` has a `0` instead of a `o` for the word `Python`. To print `True` then test to see if the two strings are not equal.\n\n```python\nstring1 = \"I love Python\"\nstring2 = \"I love Pyth0n\"\nprint(string1 != string2)\n```",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
-   "showValues": false,
    "metadata": {
     "tags": [
      {
@@ -2250,7 +2276,7 @@
      },
      {
       "name": "Content",
-      "value": "Strings"
+      "value": "String Comparison"
      },
      {
       "name": "Programming Language",
@@ -2258,7 +2284,7 @@
      },
      {
       "name": "Category",
-      "value": "String comparison"
+      "value": "Strings"
      }
     ],
     "files": [
@@ -2282,7 +2308,8 @@
      "string1 = \"I love Python\"\nstring2 = \"I love Pyth0n\"\nprint(string1 ",
      0,
      " string2)"
-    ]
+    ],
+    "regexPositions": []
    }
   }
  },
@@ -2293,12 +2320,13 @@
    "name": "reading question string comparison is & is not",
    "showName": false,
    "instructions": "## Reading Question\nFill in the blanks below.",
+   "showValues": false,
    "text": "The `is` keyword can be used to replace <<<==>>> for string comparisons.\nThe `is not` keywords can be used to replace <<<!=>>> for string comparisons.",
+   "distractors": "",
    "guidance": "The `is` keyword can be used to replace == for string comparisons.\nThe `is not` keywords can be used to replace != for string comparisons.",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
-   "showValues": false,
    "metadata": {
     "tags": [
      {
@@ -2307,7 +2335,7 @@
      },
      {
       "name": "Content",
-      "value": "Strings"
+      "value": "String Comparison"
      },
      {
       "name": "Programming Language",
@@ -2315,7 +2343,7 @@
      },
      {
       "name": "Category",
-      "value": "String comparison"
+      "value": "Strings"
      }
     ],
     "files": [
@@ -2342,7 +2370,8 @@
      " for string comparisons.\nThe `is not` keywords can be used to replace ",
      0,
      " for string comparisons."
-    ]
+    ],
+    "regexPositions": []
    }
   }
  },
@@ -2354,6 +2383,7 @@
    "showName": false,
    "instructions": "## Reading Question\nWhat is the difference between using `is` and `==` for comparison?",
    "multipleResponse": false,
+   "isRandomized": false,
    "answers": [
     {
      "_id": "f041a35d-a997-e2ac-d10f-f3d57797fd0f",
@@ -2389,11 +2419,15 @@
      },
      {
       "name": "Content",
-      "value": "Strings"
+      "value": "String Comparison"
      },
      {
       "name": "Programming Language",
       "value": "Python"
+     },
+     {
+      "name": "Category",
+      "value": "Strings"
      }
     ],
     "files": [
@@ -2419,6 +2453,7 @@
    "showName": false,
    "instructions": "## Reading Question\nWhy is converting strings to lowercase a helpful way to compare strings?",
    "multipleResponse": false,
+   "isRandomized": false,
    "answers": [
     {
      "_id": "64a8b8a5-2155-193d-5306-71d8f5b1a360",
@@ -2454,7 +2489,7 @@
      },
      {
       "name": "Content",
-      "value": "Strings"
+      "value": "String Comparison"
      },
      {
       "name": "Programming Language",
@@ -2462,7 +2497,7 @@
      },
      {
       "name": "Category",
-      "value": "String comparison"
+      "value": "Strings"
      }
     ],
     "files": [
@@ -2473,6 +2508,11 @@
       "type": "file",
       "panelNumber": 0,
       "content": "code/strings/capitalization-comparison.py"
+     },
+     {
+      "type": "terminal",
+      "panelNumber": 1,
+      "content": ""
      }
     ]
    },
@@ -2487,12 +2527,13 @@
    "name": "reading question alphabetical order strings",
    "showName": false,
    "instructions": "## Reading Question\nAssume that you have two string variables `string1` and `string2`. Fill in the blanks below.",
+   "showValues": false,
    "text": "Check to see if `string1` comes before `string2`:\n```python\nstring1 <<<<>>> string2\n```\n\nCheck to see if `string2` comes after `string1`:\n```python\nstring2 <<<>>>> string1\n```",
+   "distractors": "",
    "guidance": "If `string1` comes before `string2`, then `string1` is **less than** `string2`. If `string2` comes after `string1`, then `string2` is **greater than** `string1`.",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
-   "showValues": false,
    "metadata": {
     "tags": [
      {
@@ -2501,7 +2542,7 @@
      },
      {
       "name": "Content",
-      "value": "Strings"
+      "value": "String Comparison"
      },
      {
       "name": "Programming Language",
@@ -2509,7 +2550,7 @@
      },
      {
       "name": "Category",
-      "value": "String comparison"
+      "value": "Strings"
      }
     ],
     "files": [
@@ -2536,7 +2577,8 @@
      " string2\n```\n\nCheck to see if `string2` comes after `string1`:\n```python\nstring2 ",
      0,
      " string1\n```"
-    ]
+    ],
+    "regexPositions": []
    }
   }
  },
@@ -2591,8 +2633,7 @@
    "showName": false,
    "instructions": "## String Comparison\nRearrange the code below to write a program that checks to see if two strings (`string1` and `string2`) are equal. If yes, print the message `The two strings are equal.`. If not, print the message `The two strings are not equal.` **Hint**, you will not use all of the code blocks.",
    "initial": "if string1 is string2:\n    print(\"The two strings are equal.\")\nelse:\n    print(\"The two strings are not equal.\")\nif string1 is = string2: #distractor\nif string1 == string1: #distractor",
-   "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}",
-   "grader": "",
+   "options": "{\"sortableId\":\"sortable\",\"trashId\":\"sortableTrash\"}",
    "guidance": "The two ways to compare a string for equality are with `is` and `==`. The only code block that used one of those operators and the variables `string1` and `string2` is `string1 is string2`.\n\n```python\nif string1 is string2:\n    print(\"The two strings are equal.\")\nelse:\n    print(\"The two strings are not equal.\")\n```",
    "showGuidanceAfterResponse": true,
    "points": 1,
@@ -2605,7 +2646,7 @@
      },
      {
       "name": "Content",
-      "value": "Strings"
+      "value": "String Comparison"
      },
      {
       "name": "Programming Language",
@@ -2613,19 +2654,13 @@
      },
      {
       "name": "Category",
-      "value": "String comparison"
+      "value": "Strings"
      }
     ],
     "files": [
      "code/strings/alpha-order.py"
     ],
-    "opened": [
-     {
-      "type": "file",
-      "panelNumber": 0,
-      "content": "code/strings/alpha-order.py"
-     }
-    ]
+    "opened": []
    },
    "bloomsObjectiveLevel": "3",
    "learningObjectives": "SWBAT compare two strings for equality"
@@ -2639,6 +2674,7 @@
    "showName": false,
    "instructions": "## String Comparison\nSelect all of the true statements about `is` and `==` regarding string comparison. **Hint**, there will be more than one correct answer.",
    "multipleResponse": true,
+   "isRandomized": false,
    "answers": [
     {
      "_id": "eb7ce17e-0d12-b948-f7ae-b843765444c6",
@@ -2674,7 +2710,7 @@
      },
      {
       "name": "Content",
-      "value": "Strings"
+      "value": "String Comparison"
      },
      {
       "name": "Programming Language",
@@ -2682,7 +2718,7 @@
      },
      {
       "name": "Category",
-      "value": "String comparison"
+      "value": "Strings"
      }
     ],
     "files": [
@@ -2702,6 +2738,7 @@
    "showName": false,
    "instructions": "## Lab Question\nUsing the code below, what does the variable `char` represent? Assume that `my_string` is a string variable.\n\n```python\nfor char in my_string:\n```",
    "multipleResponse": false,
+   "isRandomized": false,
    "answers": [
     {
      "_id": "9351b53c-ba29-59ce-c796-036c26a3479f",
@@ -2737,7 +2774,7 @@
      },
      {
       "name": "Content",
-      "value": "Strings"
+      "value": "String iteration"
      },
      {
       "name": "Programming Language",
@@ -2745,7 +2782,7 @@
      },
      {
       "name": "Category",
-      "value": "String iteration"
+      "value": "Strings"
      }
     ],
     "files": [
@@ -2771,6 +2808,7 @@
    "showName": false,
    "instructions": "## Lab Question\nWhat does \"string immutability\" mean?",
    "multipleResponse": false,
+   "isRandomized": false,
    "answers": [
     {
      "_id": "4da39982-80f1-7ac4-14b5-c0a61be35a73",
@@ -2806,7 +2844,7 @@
      },
      {
       "name": "Content",
-      "value": "Strings"
+      "value": "String Immutability"
      },
      {
       "name": "Programming Language",
@@ -2814,7 +2852,7 @@
      },
      {
       "name": "Category",
-      "value": "String immutability"
+      "value": "Strings"
      }
     ],
     "files": [
@@ -2840,6 +2878,7 @@
    "showName": false,
    "instructions": "## Lab Question\nWhat does the `format` method do?",
    "multipleResponse": false,
+   "isRandomized": false,
    "answers": [
     {
      "_id": "2538b9e9-3480-1081-81b9-c18c7c0f5801",
@@ -2875,7 +2914,7 @@
      },
      {
       "name": "Content",
-      "value": "Strings"
+      "value": "String interpolation"
      },
      {
       "name": "Programming Language",
@@ -2883,7 +2922,7 @@
      },
      {
       "name": "Category",
-      "value": "String interpolation"
+      "value": "Strings"
      }
     ],
     "files": [
@@ -2909,6 +2948,7 @@
    "showName": false,
    "instructions": "## Lab Question\nWhy is it sometimes beneficial to change the case of a string before a comparison?",
    "multipleResponse": false,
+   "isRandomized": false,
    "answers": [
     {
      "_id": "1d0ad90c-4785-8bd8-0077-54a396297c90",
@@ -2944,7 +2984,7 @@
      },
      {
       "name": "Content",
-      "value": "Strings"
+      "value": "String Comparison"
      },
      {
       "name": "Programming Language",
@@ -2952,7 +2992,7 @@
      },
      {
       "name": "Category",
-      "value": "String comparison"
+      "value": "Strings"
      }
     ],
     "files": [
@@ -2991,6 +3031,7 @@
     "timeout": 30
    },
    "showExpectedAnswer": true,
+   "arePartialPointsAllowed": false,
    "sequence": [
     {
      "arguments": "Hello",
@@ -3022,7 +3063,7 @@
      },
      {
       "name": "Content",
-      "value": "Strings"
+      "value": "String iteration, string methods"
      },
      {
       "name": "Programming Language",
@@ -3030,7 +3071,7 @@
      },
      {
       "name": "Category",
-      "value": "String iteration, string methods"
+      "value": "Strings"
      }
     ],
     "files": [
@@ -3069,6 +3110,7 @@
     "timeout": 30
    },
    "showExpectedAnswer": true,
+   "arePartialPointsAllowed": false,
    "sequence": [
     {
      "arguments": "",
@@ -3100,7 +3142,7 @@
      },
      {
       "name": "Content",
-      "value": "Strings"
+      "value": "Input, String indexes, format method"
      },
      {
       "name": "Programming Language",
@@ -3108,7 +3150,7 @@
      },
      {
       "name": "Category",
-      "value": "Input, String indexes, format method"
+      "value": "Strings"
      }
     ],
     "files": [
@@ -3147,6 +3189,7 @@
     "timeout": 30
    },
    "showExpectedAnswer": true,
+   "arePartialPointsAllowed": false,
    "sequence": [
     {
      "arguments": "",
@@ -3178,7 +3221,7 @@
      },
      {
       "name": "Content",
-      "value": "Strings"
+      "value": "String length, repeating a string"
      },
      {
       "name": "Programming Language",
@@ -3186,7 +3229,7 @@
      },
      {
       "name": "Category",
-      "value": "String length, repeating a string"
+      "value": "Strings"
      }
     ],
     "files": [
@@ -3225,6 +3268,7 @@
     "timeout": 30
    },
    "showExpectedAnswer": true,
+   "arePartialPointsAllowed": false,
    "sequence": [
     {
      "arguments": "",
@@ -3256,7 +3300,7 @@
      },
      {
       "name": "Content",
-      "value": "Strings"
+      "value": "String iteration, string methods, string concatenation"
      },
      {
       "name": "Programming Language",
@@ -3264,7 +3308,7 @@
      },
      {
       "name": "Category",
-      "value": "String iteration, string methods, string concatenation"
+      "value": "Strings"
      }
     ],
     "files": [
@@ -3303,6 +3347,7 @@
     "timeout": 30
    },
    "showExpectedAnswer": true,
+   "arePartialPointsAllowed": false,
    "sequence": [
     {
      "arguments": "",
@@ -3334,7 +3379,7 @@
      },
      {
       "name": "Content",
-      "value": "Strings"
+      "value": "String Slicing"
      },
      {
       "name": "Programming Language",
@@ -3342,7 +3387,7 @@
      },
      {
       "name": "Category",
-      "value": "Slice a string"
+      "value": "Strings"
      }
     ],
     "files": [
@@ -3381,6 +3426,7 @@
     "timeout": 30
    },
    "showExpectedAnswer": true,
+   "arePartialPointsAllowed": false,
    "sequence": [
     {
      "arguments": "",
@@ -3412,7 +3458,7 @@
      },
      {
       "name": "Content",
-      "value": "Strings"
+      "value": "String iteration, string concatenation"
      },
      {
       "name": "Programming Language",
@@ -3420,7 +3466,7 @@
      },
      {
       "name": "Category",
-      "value": "String iteration, string concatenation"
+      "value": "Strings"
      }
     ],
     "files": [
