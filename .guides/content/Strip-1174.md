@@ -1,6 +1,6 @@
 ----------
 
-## What is a List Method?
+## What is a String Method?
 
 Strings have special commands called methods (more on methods in a later lesson). Methods have a special syntax. First, start with a string (often a variable that represents a string). Add a period after the string. Finally, add the name of the method with any parameters. Parameters are values that the method will use.
 
